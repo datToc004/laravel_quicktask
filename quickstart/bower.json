@@ -1,0 +1,22 @@
+{
+  "name": "datToc",
+  "description": "",
+  "main": "",
+  "authors": [
+    "datToc004"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/datToc004/laravel_quicktask",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "css": "https://fonts.googleapis.com/css?family=Montserrat",
+    "jquery.min": "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+  }
+}
