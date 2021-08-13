@@ -1,9 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\CategoryController;
-use App\Http\Controllers\LanguageController;
-use App\Http\Controllers\ProductController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,6 +16,3 @@ use App\Http\Controllers\ProductController;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::resource('categories', CategoryController::class);
-Route::get('/language/{lang}', [LanguageController::class, 'changeLanguage'])->name('change-language');
-Route::resource('products', ProductController::class);
